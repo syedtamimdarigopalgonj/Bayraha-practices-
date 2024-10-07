@@ -1,0 +1,23 @@
+body {
+    display: flex;
+    justify-content: center; /* Center horizontally */
+    align-items: center;     /* Center vertically */
+    height: 100vh;           /* Full viewport height */
+    margin: 2px;               /* Remove default margin */
+    background-color: #f8f9fa;
+     background-image: url('roof agri 01.jpeg'); /* Optional: background color */
+  }
+  
+  form {
+    background-color: white;
+    padding: 50px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1); /* Optional shadow effect */
+    max-width: 600px;
+    width: 100%;  /* Make the form responsive */
+   
+  }
+
+  .form-control {
+  margin-bottom: 20px;  /* Add spacing between form input boxes */
+}

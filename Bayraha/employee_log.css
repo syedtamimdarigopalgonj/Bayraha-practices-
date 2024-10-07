@@ -1,0 +1,17 @@
+.welcome{
+    text-align: center;
+    text-decoration: black;
+   
+    padding-top: 50px;
+    padding-left: 100px;
+    padding-right: 100px;
+    padding-bottom: 50px;
+   background-image:url('dove and vage.jpeg');
+    overflow: hidden;
+
+}
+.welcome img{
+    width: 100%;
+  height: 100%;
+  object-fit: cover;
+}

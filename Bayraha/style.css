@@ -1,0 +1,246 @@
+.vage-article{
+    height: 400px;
+    width: auto;
+   
+    text-align: center;
+    background-color: antiquewhite;
+   
+   
+}
+.vacent{
+    height: 5px;
+    background-color: aliceblue;
+}
+
+#dairy{
+
+    background-color: bisque;
+    border-radius: 0px;
+  
+}
+
+#dairy img{
+    height: 300px;
+    weight: 400px;
+    transition: all 500ms;
+}
+#dairy img:hover{
+    opacity: 1.5;
+    transform: scale(1.5);
+}
+
+
+#garden{
+    padding-top: 50px;
+    height: 400;
+    text-shadow: 2px 0px 2px;
+    
+ transition: all 500ms;
+}
+    
+#garden img{
+    
+  height: 300px;
+  transition: all 500ms;
+  
+ 
+}
+#garden img:hover{
+
+    transform: scale(1.5);
+}
+nav{
+    height: 100px;
+    background-color: black;
+}
+
+.garden{
+    text-decoration-color: black;
+    text-size-adjust: 4px;
+    padding-left: 3px;
+
+}
+
+
+
+.cart{
+    padding-right: 30px;
+}
+
+.carousel-item {
+    height: 300px;
+    background-size: cover;
+    background-position: center;
+  
+}
+
+
+.carousel-item:nth-child(1) {
+    background-image: url('Bayraha_logo.png');
+}
+
+.carousel-item:nth-child(2) {
+    background-image: url('logo of bayraha.jpeg');
+}
+
+.carousel-item:nth-child(3) {
+    background-image: url('pic for heading.jpg');
+}
+.carousel-item:nth-child(4){
+    background-image:url('nano agree image.jpeg') ;
+}
+
+
+
+/*
+.carousel-item {
+    height: 300px;
+    background-size: cover;
+    background-position: center;
+}
+*/
+.carousel-item img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover; /* Ensures the image covers the entire area */
+    object-position: center; /* Centers the image within the container */
+}
+footer{
+
+    background-color: rgb(247, 238, 238);
+    text-align: center;
+    text-decoration: color(gold);
+}
+
+.facebook{
+
+    height: 30px;
+    padding-right: 4px;
+    padding-left: 4px;
+    position: relative;
+    transition: all 600ms;
+}
+.facebook:hover{
+    opacity: 0.4;
+    border-radius: 3px;
+    border-color: black ;
+    transform: scale(1.5);
+}
+
+
+
+.watsapp{ 
+
+    height: 30px;
+    padding-right: 4px;
+    padding-left: 4px;
+    position:relative;
+    transition:all 500ms;
+}
+
+.watsapp:hover{
+
+    opacity: .4;
+    transform: scale(1.5);
+}
+.insta{
+    height: 30px;
+    padding-right: 4px;
+    padding-left: 4px;
+    position:relative;
+    transition: all 500ms;
+}
+
+.insta:hover{
+    opacity: .4;
+    transform: scale(1.5);
+    
+}
+.imo{
+    height: 30px;
+    padding-right: 4px;
+    padding-left: 4px;
+    position: absolute;
+    
+}
+
+.imo:hover{
+
+    opacity: 0.4;
+}
+.twitter{
+    height: 30px;
+    padding-right: 4px;
+    padding-left: 4px;
+    position: relative;
+    transition: all;
+}
+.twitter:hover{
+    opacity: .04;
+    transform: scale(1.5);
+}
+
+.messanger{
+transition: all 500ms;
+}
+.messanger:hover{
+    opacity: .04;
+    transform: scale(1.5);
+}
+
+
+/* Remove blue color and add custom styling to anchor tags */
+a {
+    color: inherit; /* Inherit color from the parent element */
+    text-decoration: none; /* Remove underline */
+}
+
+a:hover {
+    color: #000000; /* Change color on hover */
+    text-decoration: underline; /* Add underline on hover */
+}
+
+
+.search-container {
+    display: flex;
+    align-items: center;
+    margin-left: 20px; /* Adjust the margin as needed */
+}
+
+.search-wrapper {
+    position: relative;
+    width: 100%;
+}
+
+.search-wrapper input[type="text"] {
+    width: 100%;
+    padding: 10px 20px;
+    border: 1px solid #ccc;
+    border-radius: 25px;
+    outline: none;
+    font-size: 16px;
+}
+
+.search-button {
+    background-color: #4285f4; /* Google-like blue button */
+    color: white;
+    border: none;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: background-color 0.3s ease;
+    margin-left: 10px; /* Space between input and button */
+}
+
+.search-button:hover {
+    background-color: #3367d6; /* Darker blue on hover */
+}
+
+.search-button i {
+    font-size: 20px;
+}
+
